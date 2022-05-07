@@ -1,7 +1,7 @@
 # 编译器
 CROSS_COMPILE 	?= arm-linux-gnueabihf-
 # 项目名称
-TARGET		  	?= key
+TARGET		  	?= gpio
 
 # 编译器相关
 CC 				:= $(CROSS_COMPILE)gcc
